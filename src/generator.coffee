@@ -209,7 +209,7 @@ module.exports = (app, descriptor, resources, options = {}) ->
   unless descriptor.apiVersion
     throw new Error('apiVersion is mandatory')
 
-  basePath = utils.extractBasePath(descriptor)
+  basePath = ""
 
   options.descPath or= "api-docs.json"
   # no leading slash on desc path
