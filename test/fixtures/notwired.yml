@@ -1,6 +1,0 @@
-resourcePath: /source
-apis:
-- path: /source/stats
-  operations:
-  - httpMethod: GET
-    responseClass: void
